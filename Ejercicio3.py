@@ -4,11 +4,13 @@ Created on Sun Sep  9 13:36:18 2018
 
 @author: Eduardo Burbano 
 
-Punto 2
+Punto 3
 """
 
-a=input("Ingrese numero de lados del poli. Minimo 3 ")
+a=input("Ingrese numero de lados del poligono. Minimo 3 ")
 a=int(a)
+b=input("Ingrese el numero de lados del poligono de alineacion. Minimo 3 ")
+b=int(b)
 
 from turtle import *
 from math import *
@@ -20,7 +22,7 @@ def poli(lado,n):
 
 def poliguia(l1,l2):
     long=2*25*sin(pi/a)
-    lado0=2*130*sin(pi/4) 
+    lado0=2*130*sin(pi/b) 
     for i in range(l2):
         poli(long,l1)
         left(360*i/l2)
@@ -33,7 +35,7 @@ def poliguia(l1,l2):
 penup()
 goto(-65,-65)
 pendown()
-poliguia(a,4)
+poliguia(a,b)
    
             
 done()
