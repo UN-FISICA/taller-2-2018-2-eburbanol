@@ -4,14 +4,14 @@ Created on Sun Sep  9 11:36:18 2018
 
 @author: Eduardo Burbano 
 
-Punto 1
+Punto 1.
 """
 from turtle import *
 
 def cuad(lado):
     for i in range (4):
         for i in range(1):
-            penup()  #Reemplazar por pendown() par mostrar el recorrdo
+            penup()  
             forward(10)
             right(90)
             pendown()
@@ -24,7 +24,7 @@ def cuad(lado):
             right(90)
             forward(10)
             right(270)
-        penup() #Reemplazar por pendown() para mostrar el recorrido
+        penup()
         forward(110)
         right(90)
 cuad(4)
