@@ -4,7 +4,7 @@ Created on Sun Sep  9 13:36:18 2018
 
 @author: Eduardo Burbano 
 
-Punto 2
+Punto 2.
 """
 
 a=input("Ingrese numero de lados del poli. Minimo 3 ")

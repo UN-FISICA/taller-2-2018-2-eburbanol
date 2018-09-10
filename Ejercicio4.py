@@ -4,7 +4,7 @@ Created on Sun Sep  9 12:07:18 2018
 
 @author: Eduardo Burbano
 
-Punto 4
+Punto 4.
 """
 from math import *
 from turtle import *

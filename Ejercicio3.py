@@ -4,7 +4,7 @@ Created on Sun Sep  9 13:36:18 2018
 
 @author: Eduardo Burbano 
 
-Punto 3
+Punto 3.
 """
 
 a=input("Ingrese numero de lados del poligono. Minimo 3 ")
